@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4030" started-at="2020-09-17T06:32:51Z" finished-at="2020-09-17T06:32:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerUtility.RunnerCucumber@78e94dcf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="4030" started-at="2020-09-17T06:32:51Z" finished-at="2020-09-17T06:32:55Z">
+      <class name="RunnerUtility.RunnerCucumber">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerUtility.RunnerCucumber@78e94dcf]" name="setUpClass" is-config="true" duration-ms="1032" started-at="2020-09-17T06:32:51Z" finished-at="2020-09-17T06:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerUtility.RunnerCucumber@78e94dcf]" name="runScenario" duration-ms="512" started-at="2020-09-17T06:32:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T06:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Action"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerUtility.RunnerCucumber@78e94dcf]" name="tearDownClass" is-config="true" duration-ms="2355" started-at="2020-09-17T06:32:53Z" finished-at="2020-09-17T06:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerUtility.RunnerCucumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
